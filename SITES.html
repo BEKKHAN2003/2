@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Law & Divorce Support - Kazakhstan</title>
+  <style>
+    :root {
+      --primary: #2d6cdf;
+      --secondary: #f4f4f4;
+      --accent: #ff7b54;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 1rem;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem;
+      background-color: var(--secondary);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #2c2c2c;
+      font-weight: bold;
+    }
+
+    section.hero {
+      padding: 3rem 1rem;
+      text-align: center;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 2rem auto;
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    form h2 {
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      background-color: var(--primary);
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media(max-width: 600px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Поддержка при разводе в Казахстане</h1>
+    <p>Информация, помощь и ресурсы для семей</p>
+  </header>
+  <nav>
+    <a href="#about">О проекте</a>
+    <a href="#rights">Права</a>
+    <a href="#resources">Ресурсы</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Знай свои права и получи помощь</h1>
+    <p>Развод — это трудное время. Мы создали эту платформу, чтобы помочь вам получить доступ к информации, юристам и сообществу поддержки в Казахстане.</p>
+  </section>
+
+  <section class="info" id="rights">
+    <div class="card">
+      <h3>Права при разводе</h3>
+      <p>Как делится имущество, кто получает опеку над детьми, и что говорит закон РК.</p>
+    </div>
+    <div class="card">
+      <h3>Юридическая помощь</h3>
+      <p>Список бесплатных и платных юристов, которые работают по семейным делам.</p>
+    </div>
+    <div class="card">
+      <h3>Психологическая поддержка</h3>
+      <p>Контакты специалистов и центров помощи.</p>
+    </div>
+    <div class="card">
+      <h3>Часто задаваемые вопросы</h3>
+      <p>Что нужно для подачи заявления? Какие документы? Сколько это стоит?</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <form action="#" method="POST">
+      <h2>Обратная связь</h2>
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Ваше сообщение..." rows="5"></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DivorceHelp.kz | Все права защищены</p>
+  </footer>
+</body>
+</html>
